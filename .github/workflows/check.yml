@@ -4,6 +4,8 @@ on:
   # Try enabling auto-merge for all open pull requests. (Only recommended for testing.)
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
 
   # Try enabling auto-merge for all open pull requests.
   #schedule:
